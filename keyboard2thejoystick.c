@@ -341,8 +341,8 @@ static void init_mappings(void)
     /* Buttons (indices 8-15) */
     g_map[8]  = (Mapping){"--leftfire",  "Left Fire",  KEY_SPACE,      KEY_SPACE,      BTN_TRIGGER, 0, 0};
     g_map[9]  = (Mapping){"--rightfire", "Right Fire",  KEY_LEFTALT,    KEY_LEFTALT,    BTN_THUMB,   0, 0};
-    g_map[10] = (Mapping){"--lefttri",   "Left Tri",   KEY_LEFTBRACE,  KEY_LEFTBRACE,  BTN_TOP,     0, 0};
-    g_map[11] = (Mapping){"--righttri",  "Right Tri",  KEY_RIGHTBRACE, KEY_RIGHTBRACE, BTN_THUMB2,  0, 0};
+    g_map[10] = (Mapping){"--lefttri",   "Left Tri",   KEY_LEFTBRACE,  KEY_LEFTBRACE,  BTN_THUMB2,     0, 0};
+    g_map[11] = (Mapping){"--righttri",  "Right Tri",  KEY_RIGHTBRACE, KEY_RIGHTBRACE, BTN_TOP,  0, 0};
     g_map[12] = (Mapping){"--menu1",     "Menu 1",     KEY_7,          KEY_7,          BTN_TOP2,    0, 0};
     g_map[13] = (Mapping){"--menu2",     "Menu 2",     KEY_8,          KEY_8,          BTN_PINKIE,  0, 0};
     g_map[14] = (Mapping){"--menu3",     "Menu 3",     KEY_9,          KEY_9,          BTN_BASE,    0, 0};
